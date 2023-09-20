@@ -9,7 +9,7 @@ class CardNews extends HTMLElement {
 
     build(){
         const componentRoot = document.createElement("div");
-        componentRoot.setAttribute("class", "card");
+        componentRoot.setAttribute("class", "card"); 
         
         const cardLeft = document.createElement("div");
         const cardRIght = document.createElement("div");
@@ -22,5 +22,5 @@ class CardNews extends HTMLElement {
 
     styles(){}
 }
-
+ff
 customElements.define("card-news", CardNews)
