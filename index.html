@@ -9,20 +9,15 @@
 </head>
 <body>
     <div class="container">
-        <div class="card">
-            <div class="card_left">
-                <span>By Brenda Brito</span>
-                <a href ="#">Backend se joga pela janela</a>
-                <p>Estagiaria de desenvolvimento Backend se irrita com sua task e se joga pela janela</p>
-            </div>
-            <div class="card_right">
-                <img src = "Assets/rip.jpeg" alt = "rip">
-            </div>
-        </div>
+        <card-news 
+            autor = "Brenda Brito"
+            title = "Backend se joga pela janela"
+            url = "www.google.com"
+            photo = "Assets/rip.jpeg"
+            content = "Estagiaria de desenvolvimento Backend se irrita com sua task e se joga pela janela"
+        >
+        </card-news>
     </div>
-
-    <card-news></card-news>
-    <titulo-dinamico titulo="eu"></titulo-dinamico>
 
     <script src = "src/Components/CardNews.js" defer></script>
     <script src = "src/Components/TituloDinamico.js" defer></script>
